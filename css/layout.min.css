@@ -585,7 +585,7 @@ fieldset[disabled] .btn-theme {
     width: 21px;
     height: 1px;
     display: inline-block;
-    background: #515769;
+    background: whitesmoke;
     transition-duration: .3s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.7, 1, .7, 1)
@@ -595,7 +595,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle .toggle-icon:before {
     position: absolute;
     left: 0;
-    background: #515769;
+    background: whitesmoke;
     content: " "
 }
 
