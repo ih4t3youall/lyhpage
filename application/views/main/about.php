@@ -7,7 +7,7 @@
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
                         <div class="margin-b-80">
                             <h2>Visión</h2>
-                            <p>Ser una Empresa admirada y confiable. En búsqueda de una mejora continua, adaptándose a los cambios a través
+                            <p>Ser una Empresa admirada y confiable. En b&uacute;squeda de una mejora continua, adaptándose a los cambios a trav&eacute;s
                                del crecimiento de quienes la conforman, para así comprometerse en las necesidades y expectativas de sus clientes.  </p>
                         </div>
                         <img class="full-width img-responsive wow fadeInUp" src="img/500x500/01.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s">
