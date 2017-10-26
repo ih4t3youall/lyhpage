@@ -3,8 +3,9 @@
             <div class="content-lg container">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
-                        <h2>Latest Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                        <h2>Nuestro trabajo</h2>
+                        <p>Contamos con una amplia infraestructura asi como las herramientas y la maquinaria adecuada para realizar practicamete cualquier tipo de tarea.
+                           Para obtener m&aacute;s informaci&oacute;n al respecto puede selecionar alguna de las siguientes categor&iacute;as: </p>
                     </div>
                 </div>
                 <!--// end row -->

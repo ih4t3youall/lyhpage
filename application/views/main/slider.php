@@ -18,7 +18,8 @@
                         <div class="carousel-centered">
                             <div class="margin-b-40">
                                 <h1 class="carousel-title">LYH Ingenieria</h1>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                                <p class="color-white">Bienvenido a nuestro sitio. <br/> Somos una empresa de construciones y montajes industriales que trabaja para ofrecer servicios, <br/>
+                                    bienes y obras para el mantenimiento, construcción de equipos y plantas de proceso </p>
                             </div>
                             <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
                         </div>
@@ -30,7 +31,8 @@
                         <div class="carousel-centered">
                             <div class="margin-b-40">
                                 <h2 class="carousel-title">LYH Ingenieria</h2>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                                <p class="color-white">Bienvenido a nuestro sitio. <br/> Somos una empresa de construciones y montajes industriales que trabaja para ofrecer servicios, <br/>
+                                    bienes y obras para el mantenimiento, construcción de equipos y plantas de proceso </p>
                             </div>
                             <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
                         </div>
@@ -42,7 +44,8 @@
                         <div class="carousel-centered">
                             <div class="margin-b-40">
                                 <h2 class="carousel-title">LYH Ingenieria</h2>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                                <p class="color-white">Bienvenido a nuestro sitio. <br/> Somos una empresa de construciones y montajes industriales que trabaja para ofrecer servicios, <br/>
+                                    bienes y obras para el mantenimiento, construcción de equipos y plantas de proceso </p>
                             </div>
                             <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
                         </div>
@@ -55,7 +58,8 @@
                         <div class="carousel-centered">
                             <div class="margin-b-40">
                                 <h2 class="carousel-title">LYH Ingenieria</h2>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                                <p class="color-white">Bienvenido a nuestro sitio. <br/> Somos una empresa de construciones y montajes industriales que trabaja para ofrecer servicios, <br/>
+                                    bienes y obras para el mantenimiento, construcción de equipos y plantas de proceso </p>
                             </div>
                             <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
                         </div>
