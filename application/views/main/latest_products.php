@@ -16,11 +16,15 @@
                         <div class="margin-b-20">
 
 														<a href="web14/index.html">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <img class="img-responsive" src="img/970x647/maquinas01.jpg" alt="Latest Products Image">
 														</a>
                         </div>
                         <h4><a href="web14/index.html">Maquinas</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <p>contamos con una amplia flota de vehiculos y equipos: camionetas 4x4, camiones con hidrogruas, mini bus,
+                            semi remolques,trailers, oficinas moviles, containers, pañoles y demas vehiculos.
+                            Equipos: retro palas, retro excavadoras, autoelevadors de tijeras, tractores, plataformas  elevadoras, acoplados,
+                            gruas, compresores, carretones, etc.
+                        </p>
                         <a class="link" href="#">Read More</a>
                     </div>
                     <!-- End Latest Products -->
@@ -29,7 +33,7 @@
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
 														<a href="web15/index.html">
-                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
+                            <img class="img-responsive" src="img/970x647/herramientas.jpg" alt="Latest Products Image">
 														</a>
                         </div>
                         <h4><a href="web15/index.html">herramientas</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
@@ -41,7 +45,7 @@
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
 														<a href="web15/index.html">
-                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
+                            <img class="img-responsive" src="img/970x647/proyectos.jpg" alt="Latest Products Image">
 														</a>
                         </div>
                         <h4><a href="web15/index.html">Proyectos</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
