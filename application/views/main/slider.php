@@ -21,7 +21,7 @@
                                 <p class="color-white">Bienvenido a nuestro sitio. <br/> Somos una empresa de construciones y montajes industriales que trabaja para ofrecer servicios, <br/>
                                     bienes y obras para el mantenimiento, construcción de equipos y plantas de proceso </p>
                             </div>
-                            <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
+                            <a href="#products" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                                 <p class="color-white">Bienvenido a nuestro sitio. <br/> Somos una empresa de construciones y montajes industriales que trabaja para ofrecer servicios, <br/>
                                     bienes y obras para el mantenimiento, construcción de equipos y plantas de proceso </p>
                             </div>
-                            <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
+                            <a href="#products" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                                 <p class="color-white">Bienvenido a nuestro sitio. <br/> Somos una empresa de construciones y montajes industriales que trabaja para ofrecer servicios, <br/>
                                     bienes y obras para el mantenimiento, construcción de equipos y plantas de proceso </p>
                             </div>
-                            <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
+                            <a href="#products" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                                 <p class="color-white">Bienvenido a nuestro sitio. <br/> Somos una empresa de construciones y montajes industriales que trabaja para ofrecer servicios, <br/>
                                     bienes y obras para el mantenimiento, construcción de equipos y plantas de proceso </p>
                             </div>
-                            <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
+                            <a href="#products" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Con&oacute;cenos</a>
                         </div>
                     </div>
                 </div>

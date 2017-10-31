@@ -11,46 +11,42 @@
                 <!--// end row -->
 
                 <div class="row">
-                    <!-- Latest Products -->
+                    <!-- Maquinas y vehiculos -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
 
-														<a href="web14/index.html">
-                            <img class="img-responsive" src="img/970x647/maquinas01.jpg" alt="Latest Products Image">
+														<a href="web15/index.html">
+                            <img class="img-responsive" src="img/970x647/maquinas.jpg" alt="imagen seccion maquinas">
 														</a>
                         </div>
-                        <h4><a href="web14/index.html">Maquinas</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                        <p>contamos con una amplia flota de vehiculos y equipos: camionetas 4x4, camiones con hidrogruas, mini bus,
-                            semi remolques,trailers, oficinas moviles, containers, pañoles y demas vehiculos.
-                            Equipos: retro palas, retro excavadoras, autoelevadors de tijeras, tractores, plataformas  elevadoras, acoplados,
-                            gruas, compresores, carretones, etc.
-                        </p>
-                        <a class="link" href="#">Read More</a>
+                        <h4><a href="web14/index.html">Flota de veh&iacute;culos</a> <span class="text-uppercase margin-l-20">Flota</span></h4>
+                        <p>Contamos con una amplia flota de veh&iacute;culos y equipos, haciendo click en la imagen superior puede acceder a la galer&iacute;a de im&aacute;genes de los mismos </p>
+                        <a class="link" href="web15/index.html">Galer&iacute;a</a>
                     </div>
-                    <!-- End Latest Products -->
+                    <!-- fin maquinas y vehiculos -->
 
-                    <!-- Latest Products -->
+                    <!-- herramientas -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
 														<a href="web15/index.html">
-                            <img class="img-responsive" src="img/970x647/herramientas.jpg" alt="Latest Products Image">
+                            <img class="img-responsive" src="img/970x647/herramientas.jpg" alt="imagen seccion">
 														</a>
                         </div>
-                        <h4><a href="web15/index.html">herramientas</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
+                        <h4><a href="web15/index.html">Herramientas</a> <span class="text-uppercase margin-l-20">Herramientras</span></h4>
+                        <p>Contamos con las herramientas para realizar cualquier tipo de tarea, haga click en la im&aacute;gen si quiere obtener informacion en detalle de las mismas</p>
+                        <a class="link" href="web15/index.html">Galer&iacute;a</a>
                     </div>
-                    <!-- End Latest Products -->
+                    <!-- fin herramientas -->
 
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
 														<a href="web15/index.html">
-                            <img class="img-responsive" src="img/970x647/proyectos.jpg" alt="Latest Products Image">
+                            <img class="img-responsive" src="img/970x647/proyectos.jpg" alt="inmagen seccion proyectos">
 														</a>
                         </div>
-                        <h4><a href="web15/index.html">Proyectos</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
+                        <h4><a href="web15/index.html">Proyectos</a> <span class="text-uppercase margin-l-20">Proyectos</span></h4>
+                        <p>En la siguiente seccion puede obtener informacion acerca de los proyectos realizados por la empresa, haga click en la imagen para saber m&aacute;s</p>
+                        <a class="link" href="web15/index.html">Galer&iacute;a</a>
                     </div>
             </div>
         </div>

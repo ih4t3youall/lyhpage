@@ -25,10 +25,10 @@ class Welcome extends CI_Controller {
 		$this->load->view('main/slider');
 		$this->load->view('main/about');
 		$this->load->view('main/latest_products');
-		$this->load->view('main/pricing');
-		$this->load->view('main/work');
-		$this->load->view('main/clients');
-		$this->load->view('main/service');
+		//$this->load->view('main/pricing');
+		//$this->load->view('main/work');
+		//$this->load->view('main/clients');
+		//$this->load->view('main/service');
 		$this->load->view('main/contact');
 		$this->load->view('main/footer');
 	}

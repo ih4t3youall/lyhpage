@@ -34,7 +34,7 @@
                 </div>
                 <!-- End Masonry Grid -->
             </div>
-
+<!--
             <div class="bg-color-sky-light">
                 <div class="content-lg container">
                     <div class="row">
@@ -46,7 +46,7 @@
                             <a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">Explore</a>
                         </div>
                         <div class="col-md-5 col-sm-7 col-md-offset-2">
-                            <!-- Accordion -->
+                            <!-- Accordion
                             <div class="accordion">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
@@ -93,11 +93,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Accodrion -->
+                            <!-- End Accodrion
                         </div>
                     </div>
-                    <!--// end row -->
+                    <!--// end row
                 </div>
-            </div>
+            </div>-->
         </div>
         <!-- End About -->
