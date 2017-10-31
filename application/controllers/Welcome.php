@@ -23,8 +23,9 @@ class Welcome extends CI_Controller {
 		$this->load->view('main/head');
 		$this->load->view('main/header');
 		$this->load->view('main/slider');
+        $this->load->view('main/latest_products');
 		$this->load->view('main/about');
-		$this->load->view('main/latest_products');
+
 		//$this->load->view('main/pricing');
 		//$this->load->view('main/work');
 		//$this->load->view('main/clients');

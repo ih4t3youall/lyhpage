@@ -1,10 +1,12 @@
   <!-- About -->
         <div id="about">
             <div class="content-lg container">
+               <div class="margin-b-80"> <h2>Acerca de nosotros</h2></div>
                 <!-- Masonry Grid -->
                 <div class="masonry-grid row">
                     <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
+
                         <div class="margin-b-80">
                             <h2>Visión</h2>
                             <p>Ser una Empresa admirada y confiable. En b&uacute;squeda de una mejora continua, adaptándose a los cambios a trav&eacute;s

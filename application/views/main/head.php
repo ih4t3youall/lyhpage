@@ -3,7 +3,7 @@
     Project:        LyH web page
     Version:        1.0
     Author:         sourcesSistemas
-    Primary use:    Corporate, Business Themes.
+
 ================================== -->
 <html lang="en" class="no-js">
     <!-- BEGIN HEAD -->
