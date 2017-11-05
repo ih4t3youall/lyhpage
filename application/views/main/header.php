@@ -15,8 +15,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt=" Logo">
-                                <img class="logo-img logo-img-active" src="img/logo.png" alt=" Logo">
+                                <img class="logo-img logo-img-main" src="<?php echo base_url()?>img/logo.png" alt=" Logo">
+                                <img class="logo-img logo-img-active" src="<?php echo base_url()?>img/logo.png" alt=" Logo">
                             </a>
                         </div>
                         <!-- End Logo -->

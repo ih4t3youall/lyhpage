@@ -45,7 +45,7 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                       <!-- <img class="footer-logo" src="img/logo.png" alt="Logo">-->
+                       <!-- <img class="footer-logo" src="<?php echo base_url()?>img/logo.png" alt="Logo">-->
                     </div>
                     <div class="col-xs-6 text-right">
                         <p class="margin-b-0"> Powered by: <a class="fweight-700" href="#">sourceSistemas</a></p>

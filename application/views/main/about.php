@@ -12,11 +12,11 @@
                             <p>Ser una Empresa admirada y confiable. En b&uacute;squeda de una mejora continua, adaptándose a los cambios a trav&eacute;s
                                del crecimiento de quienes la conforman, para así comprometerse en las necesidades y expectativas de sus clientes.  </p>
                         </div>
-                        <img class="full-width img-responsive wow fadeInUp" src="img/500x500/vision.jpg" alt="vision Image" data-wow-duration=".3" data-wow-delay=".2s">
+                        <img class="full-width img-responsive wow fadeInUp" src="<?php echo base_url()?>img/500x500/vision.jpg" alt="vision Image" data-wow-duration=".3" data-wow-delay=".2s">
                     </div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
                         <div class="margin-b-20">
-                            <img class="full-width img-responsive wow fadeInUp" src="img/500x500/02.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
+                            <img class="full-width img-responsive wow fadeInUp" src="<?php echo base_url()?>img/500x500/02.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
                         </div>
                         <h2>Misi&oacute;n</h2>
                         <p>Ingeniería L & H SRL quiere ser una empresa de renombre en lo referente a Mantenimiento industrial y Servicios,
@@ -31,7 +31,7 @@
                             teniendo en cuenta avances tecnológicos. Hacer cumplir la política de seguridad. Trabajar por una mejora continua
                             y constante. Siempre actuar como una Empresa responsable mostrando ese compromiso que tiene hacia sus diferentes públicos.</p>
                         </div>
-                        <img class="full-width img-responsive wow fadeInUp" src="img/500x500/valores.jpg" alt="valores Image" data-wow-duration=".3" data-wow-delay=".4s">
+                        <img class="full-width img-responsive wow fadeInUp" src="<?php echo base_url()?>img/500x500/valores.jpg" alt="valores Image" data-wow-duration=".3" data-wow-delay=".4s">
                     </div>
                 </div>
                 <!-- End Masonry Grid -->

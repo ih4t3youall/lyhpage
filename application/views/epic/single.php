@@ -82,7 +82,7 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="fh5co-logo">
-		<a href="<?php echo base_url();?>" class="transition"><i class="icon-camera"></i><em><span class="icon-home"></span></em></a>	
+		<a href="<?php echo base_url();?>index.php/epic" class="transition"><i class="icon-camera"></i><em><span class="icon-home"></span></em></a>	
 	</div>
 
 	<div id="fh5co-main" role="main">

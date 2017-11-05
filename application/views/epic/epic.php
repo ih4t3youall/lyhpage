@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -82,7 +81,7 @@
 	<div class="fh5co-loader"></div>
 
 	<div id="fh5co-logo">
-		<a href="index.html" class="transition"><i class="icon-camera"></i><em><span class="icon-home"></span></em></a>	
+		<a href="<?php echo base_url();?>index.php/main" class="transition"><i class="icon-camera"></i><em><span class="icon-home"></span></em></a>	
 	</div>
 
 	<div id="fh5co-main" role="main">
@@ -94,7 +93,6 @@
 				
 				<div class="fh5co-col-1">
 
-<a href="../prototipo/index.html">volver</a>	
 					<div class="fh5co-intro padding-right">
 <!--						<h1>I'm Jean Smith <em>&amp;</em> I'm a Photographer. I love capture life. <a href="about.html" class="transition"><em>About Me</em></a></h1>-->
 <!--						<ul class="fh5co-social">
@@ -106,8 +104,8 @@
 -->
 					</div>
 					<div class="fh5co-item">
-						<a href="single" class="transition animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
+						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
+							<img src="<?php echo base_url().'epic/'?>images/pic_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
 							<div class="fh5co-item-text-wrap">
 								<div class="fh5co-item-text">
 									<h2>Outdoor</h2>
@@ -116,8 +114,8 @@
 						</a>
 					</div>
 					<div class="fh5co-item">
-						<a href="single" class="transition animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
+						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
+							<img src="<?php echo base_url().'epic/'?>images/pic_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
 							<div class="fh5co-item-text-wrap">
 								<div class="fh5co-item-text">
 									<h2>Food</h2>
@@ -126,7 +124,7 @@
 						</a>
 					</div>
 					<div class="fh5co-item">
-						<a href="single" class="transition animate-box">
+						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
 							<img src="<?php echo base_url().'/epic/'?>images/pic_7.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
 							<div class="fh5co-item-text-wrap">
 								<div class="fh5co-item-text">
@@ -136,7 +134,7 @@
 						</a>
 					</div>
 					<div class="fh5co-item">
-						<a href="single" class="transition animate-box">
+						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
 							<img src="<?php echo base_url().'/epic/'?>images/pic_8.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
 							<div class="fh5co-item-text-wrap">
 								<div class="fh5co-item-text">
@@ -148,7 +146,7 @@
 				</div>
 				<div class="fh5co-col-2">
 					<div class="fh5co-item">
-						<a href="single" class="transition animate-box">
+						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
 							<img src="<?php echo base_url().'/epic/'?>images/pic_3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
 							<div class="fh5co-item-text-wrap">
 								<div class="fh5co-item-text">
@@ -158,7 +156,7 @@
 						</a>
 					</div>
 					<div class="fh5co-item">
-						<a href="single" class="transition animate-box">
+						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
 							<img src="<?php echo base_url().'/epic/'?>images/pic_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
 							<div class="fh5co-item-text-wrap">
 								<div class="fh5co-item-text">
@@ -169,7 +167,7 @@
 						
 					</div>
 					<div class="fh5co-item">
-						<a href="single" class="transition animate-box">
+						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
 							<img src="<?php echo base_url().'/epic/'?>images/pic_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
 							<div class="fh5co-item-text-wrap">
 								<div class="fh5co-item-text">
@@ -179,7 +177,7 @@
 						</a>
 					</div>
 					<div class="fh5co-item">
-						<a href="single" class="transition animate-box">
+						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
 							<img src="<?php echo base_url().'/epic/'?>images/pic_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
 							<div class="fh5co-item-text-wrap">
 								<div class="fh5co-item-text">
