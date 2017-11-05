@@ -33,4 +33,22 @@ class Welcome extends CI_Controller {
 		$this->load->view('main/contact');
 		$this->load->view('main/footer');
 	}
+
+
+public function prueba(){
+
+$this->load->view('epic/epic');
+
+
+}
+
+public function single(){
+
+
+$this->load->view('epic/single');
+
+
+}
+
+	
 }
