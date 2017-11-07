@@ -20,7 +20,9 @@ class Hydrogen extends CI_Controller {
 	 */
 	public function index()
 	{
-$this->load->view('hydrogen/hydrogen');
+$this->load->model('images_model');
+$result['result'] = $this->images_model->get_images();
+$this->load->view('hydrogen/hydrogen',$result);
 	}
 	
 }

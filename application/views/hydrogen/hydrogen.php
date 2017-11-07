@@ -105,7 +105,20 @@
 			<div class="row">
 
         <div id="fh5co-board" data-columns>
+<?php 
 
+foreach($result as $key){
+       echo ' 	<div class="item">';
+       echo ' 		<div class="animate-box">';
+	     echo '   		<a href="../../uploadFiles/uploads/'.$key['url'].'" class="image-popup fh5co-board-img" title="'.$key['textoImagen'].'"><img src="../../uploadFiles/uploads/'.$key['url'].'" alt="Free HTML5 Bootstrap template"></a>';
+       echo ' 		</div>';
+       echo ' 		<div class="fh5co-desc">'.$key['textoImagen'].'</div>';
+       echo ' 	</div>';
+
+}
+
+
+?>
         	<div class="item">
         		<div class="animate-box">
 	        		<a href="images/img_1.jpg" class="image-popup fh5co-board-img" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, eos?"><img src="<?php echo base_url();?>/hydrogen/images/img_1.jpg" alt="Free HTML5 Bootstrap template"></a>
