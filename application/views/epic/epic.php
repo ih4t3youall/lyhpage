@@ -104,7 +104,7 @@
 -->
 					</div>
 <?php 
-
+if($result['izq']!= null){
 foreach ($result['izq'] as $key){
 				echo '	<div class="fh5co-item">';
 				echo '		<a href="'.base_url().'/index.php/epic/single?id_obra='.$key['id_obra'].'" class="transition animate-box">';
@@ -118,6 +118,7 @@ foreach ($result['izq'] as $key){
 				echo '	</div>';
 }
 
+}
 ?>
 
 
@@ -128,6 +129,7 @@ foreach ($result['izq'] as $key){
 
 <?php 
 
+if($result['der']!= null){
 foreach ($result['der'] as $key){
 				echo '	<div class="fh5co-item">';
 				echo '		<a href="'.base_url().'/index.php/epic/single?id_obra='.$key['id_obra'].'" class="transition animate-box">';
@@ -140,7 +142,7 @@ foreach ($result['der'] as $key){
 				echo '		</a>';
 				echo '	</div>';
 }
-
+}
 ?>
 
 
