@@ -7,21 +7,17 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Epic &mdash; Fully Responsive Free HTML5 Bootstrap Website Template by FREEHTML5.co</title>
+	<title>L&H Ingenieria &mdash; Obra</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="e" />
+	<meta name="author" content="sourceSystemas" />
   <!-- 
 	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
 		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+	Website: 		www.sourceSistemas.com
+
 
 	//////////////////////////////////////////////////////
 	 -->
@@ -82,7 +78,7 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="fh5co-logo">
-		<a href="<?php echo base_url();?>index.php/epic" class="transition"><i class="icon-camera"></i><em><span class="icon-home"></span></em></a>	
+		<a href="<?php echo base_url();?>index.php/epic" class="transition"><i class="icon-reply"></i><em><span class="icon-home"></span></em></a>
 	</div>
 
 	<div id="fh5co-main" role="main">
@@ -90,11 +86,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-push-4 fh5co-heading">
-					<h1><?php echo $result[0]['cliente']?></h1>
-					<p><?php echo $result[0]['obra']?></p>
-					<p><?php echo $result[0]['lugar']?></p>
-					<p><?php echo $result[0]['planta']?></p>
-					<p><?php echo $result[0]['antecedentes']?></p>
+					<h1>Cliente: <?php echo $result[0]['cliente']?></h1>
+					<p>Obra: <?php echo $result[0]['obra']?></p>
+					<p>Lugar: <?php echo $result[0]['lugar']?></p>
+					<p>Planta: <?php echo $result[0]['planta']?></p>
+					<p>Antecedentes: <?php echo $result[0]['antecedentes']?></p>
 				</div>
 			</div>
 			
@@ -102,7 +98,7 @@
 				
 				<div class="fh5co-col-1">
 					<div class="fh5co-heading padding-right">
-						<h2><?php echo $result[0]['desc_tar_realiz']?></h2>
+						<h2>Descripcion de tareas: <?php echo $result[0]['desc_tar_realiz']?></h2>
 						<p><?php echo $result[0]['texto']?></p>
 					</div>
 					
@@ -150,13 +146,8 @@ echo '					</div>';
 ?>
 
 					<div id="fh5co-footer" class="padding-left">
-						<p><small>&copy; 2016 Epic. All Rights Reserved. <br> Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
-						<ul class="fh5co-social">
-							<li><a href="#"><i class="icon-twitter-with-circle"></i></a></li>
-							<li><a href="#"><i class="icon-facebook-with-circle"></i></a></li>
-							<li><a href="#"><i class="icon-instagram-with-circle"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble-with-circle"></i></a></li>
-						</ul>
+						<p><small> 2017 L&H Ingenieria. All Rights Reserved. <br> Powered by: sourcesSistemas </small></p>
+
 					</div>
 				</div>
 			</div>

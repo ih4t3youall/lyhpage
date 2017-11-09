@@ -6,27 +6,24 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Epic &mdash; Fully Responsive Free HTML5 Bootstrap Website Template by FREEHTML5.co</title>
+	<title>L&H Ingenieria &mdash; Obras </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="description" content="L&H Ingenieria obras" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="sourcesSistemas" />
 
   <!-- 
 	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
+
 		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+	Website: 		sourcesSistemas.com.ar
+
 
 	//////////////////////////////////////////////////////
 	 -->
 
-  	<!-- Facebook and Twitter integration -->
+  	<!-- Facebook and Twitter integration
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -35,7 +32,7 @@
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta name="twitter:card" content="" />  -->
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
@@ -108,7 +105,7 @@ if($result['izq']!= null){
 foreach ($result['izq'] as $key){
 				echo '	<div class="fh5co-item">';
 				echo '		<a href="'.base_url().'/index.php/epic/single?id_obra='.$key['id_obra'].'" class="transition animate-box">';
-				echo '			<img src="../../uploadFiles/uploads/'.$key['image']['url'].'" alt="Free HTML5 Website Template by FreeHTML5.co">';
+				echo '			<img src="../../uploadFiles/uploads/'.$key['image']['url'].'" alt="imagen obra">';
 				echo '			<div class="fh5co-item-text-wrap">';
 				echo '				<div class="fh5co-item-text">';
 				echo '					<h2>'.$key['obra'].'</h2>';
@@ -133,7 +130,7 @@ if($result['der']!= null){
 foreach ($result['der'] as $key){
 				echo '	<div class="fh5co-item">';
 				echo '		<a href="'.base_url().'/index.php/epic/single?id_obra='.$key['id_obra'].'" class="transition animate-box">';
-				echo '			<img src="../../uploadFiles/uploads/'.$key['image']['url'].'" alt="Free HTML5 Website Template by FreeHTML5.co">';
+				echo '			<img src="../../uploadFiles/uploads/'.$key['image']['url'].'" alt="imagen obra">';
 				echo '			<div class="fh5co-item-text-wrap">';
 				echo '				<div class="fh5co-item-text">';
 				echo '					<h2>'.$key['obra'].'</h2>';
@@ -149,8 +146,7 @@ foreach ($result['der'] as $key){
 
 
 					<div id="fh5co-footer" class="padding-left">
-<!--						<p><small>&copy; 2016 Epic. All Rights Reserved. <br> Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
--->
+                        <p><small> 2017 L&H Ingenieria. All Rights Reserved. <br> Powered by: sourcesSistemas </small></p>
 <!--						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-twitter-with-circle"></i></a></li>
 							<li><a href="#"><i class="icon-facebook-with-circle"></i></a></li>

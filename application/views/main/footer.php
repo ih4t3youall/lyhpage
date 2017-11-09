@@ -45,7 +45,7 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                       <!-- <img class="footer-logo" src="<?php echo base_url()?>img/logo.png" alt="Logo">-->
+                        <p> &copy; 2017 L&H Ingenieria. All Rights Reserved.</p>
                     </div>
                     <div class="col-xs-6 text-right">
                         <p class="margin-b-0"> Powered by: <a class="fweight-700" href="#">sourceSistemas</a></p>
