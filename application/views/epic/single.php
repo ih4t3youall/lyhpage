@@ -88,110 +88,66 @@
 	<div id="fh5co-main" role="main">
 		
 		<div class="container">
-			
-			
-
 			<div class="row">
 				<div class="col-md-8 col-md-push-4 fh5co-heading">
-					<h1>Single Showcase Photography</h1>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+					<h1><?php echo $result[0]['cliente']?></h1>
+					<p><?php echo $result[0]['obra']?></p>
+					<p><?php echo $result[0]['lugar']?></p>
+					<p><?php echo $result[0]['planta']?></p>
+					<p><?php echo $result[0]['antecedentes']?></p>
 				</div>
 			</div>
-
 			
 			<div class="fh5co-grid">
 				
 				<div class="fh5co-col-1">
 					<div class="fh5co-heading padding-right">
-						<h2>Outdoor</h2>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+						<h2><?php echo $result[0]['desc_tar_realiz']?></h2>
+						<p><?php echo $result[0]['texto']?></p>
 					</div>
 					
-					<div class="fh5co-item">
-						<a href="<?php echo base_url().'/epic/'?>images/pic_1.jpg" class="image-popup animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" title="Nice one">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2><i class="icon-search2"></i></h2>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url().'/epic/'?>images/pic_2.jpg" class="image-popup animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2><i class="icon-search2"></i></h2>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url().'/epic/'?>images/pic_7.jpg" class="image-popup animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_7.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2><i class="icon-search2"></i></h2>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url().'/epic/'?>images/pic_8.jpg" class="image-popup animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_8.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2><i class="icon-search2"></i></h2>
-								</div>
-							</div>
-						</a>
-					</div>
+<?php 
+if($images['izq'] != null){
+
+
+
+foreach($images['izq'] as $key){
+echo '					<div class="fh5co-item">';
+echo '						<a href="'.base_url().'../../../uploadFiles/uploads/'.$key['url'].'" class="image-popup animate-box">';
+echo '							<img src="'.base_url().'../../../uploadFiles/uploads/'.$key['url'].'" alt="image load fail">';
+echo '							<div class="fh5co-item-text-wrap">';
+echo '								<div class="fh5co-item-text">';
+echo '									<h2><i class="icon-search2"></i></h2>';
+echo '								</div>';
+echo '							</div>';
+echo '						</a>';
+echo '					</div>';
+}
+?>
+
 				</div>
 				<div class="fh5co-col-2">
 
-					<div class="fh5co-item">
-						<a href="<?php echo base_url().'/epic/'?>images/pic_3.jpg" class="image-popup animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2><i class="icon-search2"></i></h2>	
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url().'/epic/'?>images/pic_4.jpg" class="image-popup animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2><i class="icon-search2"></i></h2>	
-								</div>
-							</div>
-						</a>
-						
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url().'/epic/'?>images/pic_5.jpg" class="image-popup animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2><i class="icon-search2"></i></h2>	
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url().'/epic/'?>images/pic_6.jpg" class="image-popup animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2><i class="icon-search2"></i></h2>	
-								</div>
-							</div>
-						</a>
-					</div>
+<?php
+}
+if($images['der'] != null){
+foreach($images['der'] as $key){
+echo '					<div class="fh5co-item">';
+echo '						<a href="'.base_url().'../../../uploadFiles/uploads/'.$key['url'].'" class="image-popup animate-box">';
+echo '							<img src="'.base_url().'../../../uploadFiles/uploads/'.$key['url'].'" alt="image load fail">';
+echo '							<div class="fh5co-item-text-wrap">';
+echo '								<div class="fh5co-item-text">';
+echo '									<h2><i class="icon-search2"></i></h2>';
+echo '								</div>';
+echo '							</div>';
+echo '						</a>';
+echo '					</div>';
+
+
+
+}
+}
+?>
 
 					<div id="fh5co-footer" class="padding-left">
 						<p><small>&copy; 2016 Epic. All Rights Reserved. <br> Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
@@ -205,7 +161,10 @@
 				</div>
 			</div>
 		</div>
-
+</br>
+</br>
+</br>
+</br>
 	</div>
 
 	</body>
