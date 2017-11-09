@@ -55,6 +55,8 @@ class Epic extends CI_Controller {
 								$switch =0;
 								$contador=0;
 								$result2=array();
+								$result2['izq']=null;
+								$result2['der']=null;
 								foreach($result as $resultado){
 												if($switch == 1){
 																$result2['izq'][$contador]=$resultado;

@@ -107,6 +107,10 @@
 					</div>
 					
 <?php 
+if($images['izq'] != null){
+
+
+
 foreach($images['izq'] as $key){
 echo '					<div class="fh5co-item">';
 echo '						<a href="'.base_url().'../../../uploadFiles/uploads/'.$key['url'].'" class="image-popup animate-box">';
@@ -123,7 +127,10 @@ echo '					</div>';
 
 				</div>
 				<div class="fh5co-col-2">
+
 <?php
+}
+if($images['der'] != null){
 foreach($images['der'] as $key){
 echo '					<div class="fh5co-item">';
 echo '						<a href="'.base_url().'../../../uploadFiles/uploads/'.$key['url'].'" class="image-popup animate-box">';
@@ -139,6 +146,7 @@ echo '					</div>';
 
 
 }
+}
 ?>
 
 					<div id="fh5co-footer" class="padding-left">
@@ -153,7 +161,10 @@ echo '					</div>';
 				</div>
 			</div>
 		</div>
-
+</br>
+</br>
+</br>
+</br>
 	</div>
 
 	</body>
