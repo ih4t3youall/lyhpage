@@ -51,7 +51,7 @@ class Epic extends CI_Controller {
 				}
 
 				public function divide_and_conquer($result){
-
+								// divide el array en dos para tener dos columnas en la vista
 								$switch =0;
 								$contador=0;
 								$result2=array();
