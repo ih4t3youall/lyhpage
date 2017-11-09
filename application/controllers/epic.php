@@ -20,13 +20,53 @@ class Epic extends CI_Controller {
 				 */
 				public function index()
 				{
-								$this->load->view('epic/epic');
+								$this->load->model('obras_model');
+								$obras=	$this->obras_model->load_obras();
+								$result['result']=$this->addImage($obras);
+								$this->load->view('epic/epic',$result);
+				}
+				public function addImage($obras){
+
+								$int = sizeof($obras);
+								for ($i = 0; $i < $int; $i++) {	
+
+												$this->load->model('images_model');
+												$imagenes =$this->images_model->load_images_by_obra_id($obras[$i]['id_obra']);
+												$obras[$i]['image']=$imagenes[0];
+
+								}
+								return $obras;
+
+
 				}
 
 				public function single(){
+								$id_obra =	$this->input->get('id_obra');
+								$this->load->model('obras_model');
+								$this->load->model('images_model');
+								$result['result']=$this->obras_model->load_obra_by_id($id_obra);	
+								$images=$this->images_model->load_images_by_obra_id($id_obra);
+								$result['images']=$this->divide_and_conquer($images);
+								$this->load->view('epic/single',$result);
+				}
 
-								$this->load->view('epic/single');
+				public function divide_and_conquer($result){
 
+								$switch =0;
+								$contador=0;
+								$result2=array();
+								foreach($result as $resultado){
+												if($switch == 1){
+																$result2['izq'][$contador]=$resultado;
+																$contador++;
+																$switch=0;
+												}else{
+																$result2['der'][$contador]=$resultado;
+																$contador++;
+																$switch=1;
+												}
+								}	
+								return $result2;
 				}
 
 }

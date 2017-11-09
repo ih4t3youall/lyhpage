@@ -113,6 +113,22 @@
 							</div>
 						</a>
 					</div>
+<?php 
+
+foreach ($result as $key){
+				echo '	<div class="fh5co-item">';
+				echo '		<a href="'.base_url().'/index.php/epic/single?id_obra='.$key['id_obra'].'" class="transition animate-box">';
+				echo '			<img src="../../uploadFiles/uploads/'.$key['image']['url'].'" alt="Free HTML5 Website Template by FreeHTML5.co">';
+				echo '			<div class="fh5co-item-text-wrap">';
+				echo '				<div class="fh5co-item-text">';
+				echo '					<h2>'.$key['obra'].'</h2>';
+				echo '				</div>';
+				echo '			</div>';
+				echo '		</a>';
+				echo '	</div>';
+}
+
+?>
 					<div class="fh5co-item">
 						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
 							<img src="<?php echo base_url().'epic/'?>images/pic_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">

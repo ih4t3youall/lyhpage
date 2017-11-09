@@ -3,15 +3,11 @@
 class Images_model extends CI_Model {
 
 
-				public function load_obras()
-				{
-								$query = $this->db->get('obra');
-								return $query->result();
-				}
 
 				public function load_images_by_obra_id($id){
+								$this->load->database();
 								$result =  $this->db->get_where('images', array('id_obra' => $id));
-								return $result->result();
+								return $this->convert_to_simple_array($result->result());
 				}
 
 				public function delete_image($id_image){
