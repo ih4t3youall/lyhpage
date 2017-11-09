@@ -6,7 +6,7 @@
   font-style: normal;
 }
 html, body {
-  background: #fff;
+  background: whitesmoke;
 }
 
 body {
@@ -23,7 +23,7 @@ body.fh5co-overflow {
 body:before, body:after {
   content: "";
   position: fixed;
-  background: #fef7ec;
+  background: whitesmokex;
   left: 0;
   right: 0;
   height: 20px;
@@ -44,8 +44,9 @@ body:after {
 }
 
 body {
-  border-left: 20px solid #fef7ec;
-  border-right: 20px solid #fef7ec;
+  border-left: 20px solid whitesmoke;
+  border-right: 20px solid whitesmoke;
+  border-top: 20px solid whitesmoke;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -56,28 +57,29 @@ body {
 
 ::-webkit-selection {
   color: #fff;
-  background: #f7c873;
+  background: #31b0d5;
+  background: #31b0d5;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #f7c873;
+  background: #31b0d5;
 }
 
 ::selection {
   color: #fff;
-  background: #f7c873;
+  background:#31b0d5 ;
 }
 
 a {
-  color: #f7c873;
+  color: #31708f;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  color: #f3ac2b;
+  color: #31708f;
 }
 a:hover, a:focus, a:active {
-  color: #de930d;
+  color: #31b0d5;
   outline: none;
   text-decoration: none;
 }
@@ -523,7 +525,7 @@ p {
   }
 }
 .fh5co-social li a:hover {
-  color: #f3ac2b;
+  color: #428bca;
 }
 
 figure {
