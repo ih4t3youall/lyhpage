@@ -18,6 +18,7 @@ class Epic extends CI_Controller {
 				 * map to /index.php/welcome/<method_name>
 				 * @see https://codeigniter.com/user_guide/general/urls.html
 				 */
+
 				public function index()
 				{
 								$this->load->model('obras_model');
@@ -26,6 +27,7 @@ class Epic extends CI_Controller {
 								$result['result']=$this->divide_and_conquer($obrass);
 								$this->load->view('epic/epic',$result);
 				}
+
 				public function addImage($obras){
 
 								$int = sizeof($obras);
@@ -37,7 +39,6 @@ class Epic extends CI_Controller {
 
 								}
 								return $obras;
-
 
 				}
 
