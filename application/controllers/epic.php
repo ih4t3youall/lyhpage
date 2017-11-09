@@ -22,7 +22,8 @@ class Epic extends CI_Controller {
 				{
 								$this->load->model('obras_model');
 								$obras=	$this->obras_model->load_obras();
-								$result['result']=$this->addImage($obras);
+								$obrass=$this->addImage($obras);
+								$result['result']=$this->divide_and_conquer($obrass);
 								$this->load->view('epic/epic',$result);
 				}
 				public function addImage($obras){

@@ -103,19 +103,9 @@
 						</ul>
 -->
 					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
-							<img src="<?php echo base_url().'epic/'?>images/pic_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2>Outdoor</h2>
-								</div>
-							</div>
-						</a>
-					</div>
 <?php 
 
-foreach ($result as $key){
+foreach ($result['izq'] as $key){
 				echo '	<div class="fh5co-item">';
 				echo '		<a href="'.base_url().'/index.php/epic/single?id_obra='.$key['id_obra'].'" class="transition animate-box">';
 				echo '			<img src="../../uploadFiles/uploads/'.$key['image']['url'].'" alt="Free HTML5 Website Template by FreeHTML5.co">';
@@ -129,79 +119,32 @@ foreach ($result as $key){
 }
 
 ?>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
-							<img src="<?php echo base_url().'epic/'?>images/pic_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2>Food</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_7.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2>Nature</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_8.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2>Travel</h2>
-								</div>
-							</div>
-						</a>
-					</div>
+
+
 				</div>
+
 				<div class="fh5co-col-2">
-					<div class="fh5co-item">
-						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2>Nature</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2>Wildlife</h2>
-								</div>
-							</div>
-						</a>
-						
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2>Faces</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="fh5co-item">
-						<a href="<?php echo base_url();?>index.php/epic/single" class="transition animate-box">
-							<img src="<?php echo base_url().'/epic/'?>images/pic_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co">
-							<div class="fh5co-item-text-wrap">
-								<div class="fh5co-item-text">
-									<h2>Cities</h2>
-								</div>
-							</div>
-						</a>
-					</div>
+
+
+<?php 
+
+foreach ($result['der'] as $key){
+				echo '	<div class="fh5co-item">';
+				echo '		<a href="'.base_url().'/index.php/epic/single?id_obra='.$key['id_obra'].'" class="transition animate-box">';
+				echo '			<img src="../../uploadFiles/uploads/'.$key['image']['url'].'" alt="Free HTML5 Website Template by FreeHTML5.co">';
+				echo '			<div class="fh5co-item-text-wrap">';
+				echo '				<div class="fh5co-item-text">';
+				echo '					<h2>'.$key['obra'].'</h2>';
+				echo '				</div>';
+				echo '			</div>';
+				echo '		</a>';
+				echo '	</div>';
+}
+
+?>
+
+
+
 
 					<div id="fh5co-footer" class="padding-left">
 <!--						<p><small>&copy; 2016 Epic. All Rights Reserved. <br> Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
@@ -216,7 +159,9 @@ foreach ($result as $key){
 				</div>
 			</div>
 		</div>
-
+<br/>
+<br/>
+<br/>
 	</div>
 	
 	</body>
