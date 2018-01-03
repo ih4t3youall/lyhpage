@@ -86,8 +86,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-push-4 fh5co-heading">
-					<h1>Cliente: <?php echo $result[0]['cliente']?></h1>
-					<p>Obra: <?php echo $result[0]['obra']?></p>
+					<h1>Obra: <?php echo $result[0]['obra']?></h1>
+					<p>Cliente: <?php echo $result[0]['cliente']?></p>
 					<p>Lugar: <?php echo $result[0]['lugar']?></p>
 					<p>Planta: <?php echo $result[0]['planta']?></p>
 					<p>Antecedentes: <?php echo $result[0]['antecedentes']?></p>
@@ -98,8 +98,8 @@
 				
 				<div class="fh5co-col-1">
 					<div class="fh5co-heading padding-right">
-						<h2>Descripcion de tareas: <?php echo $result[0]['desc_tar_realiz']?></h2>
-						<p><?php echo $result[0]['texto']?></p>
+						<h2>Descripcion de tareas:</h2> <p><?php echo $result[0]['desc_tar_realiz']?></p>
+						<!--<p><?php //echo $result[0]['texto']?></p>-->
 					</div>
 					
 <?php 

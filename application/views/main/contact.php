@@ -19,7 +19,9 @@
                                 <li><i class="margin-r-10 color-base icon-envelope"></i> operation@AitOnepage.com</li>
                             </ul>
                             <p>Si quiere formar parte de nuestra empresa puede enviarnos su curricum vitae haciendo click en el siguiente boton:</p>
-                            <a href="send_CV.php" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Enviar CV</a>
+                            <button type="button" class="btn-theme btn-theme-sm btn-default-bg text-uppercase" data-toggle="modal" data-target="#exampleModal">
+                               Enviar CV
+                            </button>
 
                         </div>
                         <!-- End Contact List -->
@@ -39,4 +41,62 @@
             <div id="map" class="map height-300"></div>
         </div>
         <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Enviar C.V.</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                 </button>
+             </div>
+             <div class="modal-body">
+
+
+
+                 <?php $attributes = array('class' => 'cvForm', 'id' => 'cvForm');
+                 echo form_open('Upload/do_upload', $attributes); ?>
+                 <div class="form-group">
+                     <label for="nombre">Nombre</label>
+                     <input type="text" class="form-control" name="nombre" id="nombre" aria-describedby="nombre" placeholder="Nombre" required>
+                 </div>
+                 <div class="form-group">
+                     <label for="apellido">Apellido</label>
+                     <input type="text" class="form-control"  name="apellido" id="apellido" aria-describedby="apellido" placeholder="Apellido" required>
+                 </div>
+
+                 <div class="form-group">
+                     <label for="email">Email</label>
+                     <input type="email" class="form-control"  name="email" id="email" aria-describedby="email" placeholder="Email" required>
+                 </div>
+
+                 <div class="form-group">
+                     <label for="telefono">Tel&eacute;fono</label>
+                     <input type="number" class="form-control"  name="telefono" id="telefono" aria-describedby="telefono" placeholder="Telefono" required>
+                 </div>
+
+
+                 <div class="form-group">
+                     <label for="CV">Seleccione su CV</label>
+                     <input type="file" class="form-control"  name="cv" id="cv" aria-describedby="cv" required />
+                     <small id="CVHelp" class="form-text text-muted">Suba un archivo con formato word o pfd.</small>
+                 </div>
+
+
+
+                 <button type="submit" class="btn btn-primary">Enviar</button>
+                 </form>
+
+
+
+
+             </div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <!--========== END PAGE LAYOUT ==========-->
