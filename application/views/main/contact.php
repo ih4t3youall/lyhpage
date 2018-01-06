@@ -56,7 +56,7 @@
 
 
                  <?php $attributes = array('class' => 'cvForm', 'id' => 'cvForm');
-                 echo form_open('Upload/do_upload', $attributes); ?>
+                 echo form_open_multipart('Upload/do_upload', $attributes); ?>
                  <div class="form-group">
                      <label for="nombre">Nombre</label>
                      <input type="text" class="form-control" name="nombre" id="nombre" aria-describedby="nombre" placeholder="Nombre" required>

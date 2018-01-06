@@ -11,11 +11,12 @@ class Upload extends CI_Controller
 
     public function do_upload()
     {
+        $this->load->database();
         $config['upload_path']          = './uploads/';
         $config['allowed_types']        = 'doc|docx|pdf|jpg|png|jpeg|txt';
 
         $this->load->library('upload', $config);
-        var_dump($_POST);
+
 
         if ( ! $this->upload->do_upload('cv'))
         {
@@ -29,12 +30,20 @@ class Upload extends CI_Controller
 
             $this->save_cv();
             $uploadData = $this->upload->data();
+            //$this->main->index();
+           // $this->load->view('main/index');
 
-            $this->load->view('main/index');
+            $this->load->view('main/head');
+            $this->load->view('main/header');
+            $this->load->view('main/slider');
+            $this->load->view('main/latest_products');
+            $this->load->view('main/about');
+            $this->load->view('main/contact');
+            $this->load->view('main/footer');
         }
     }
-    public function save_photo(){
-
+    public function save_cv(){
+        $this->load->database();
         $fileName=$this->upload->data('raw_name').$this->upload->data('file_ext');
         $data = array(
 
@@ -45,6 +54,7 @@ class Upload extends CI_Controller
             'telefono' => $this->input->post('telefono'),
 
         );
+
         $this->load->model('Cv_model');
         $this->Cv_model->save_cv($data);
 
