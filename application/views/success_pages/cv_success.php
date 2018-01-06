@@ -30,13 +30,13 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
     </head>
-<body>
+<body id="success_body">
 
 <h1> Su curriculum fue enviado exitosamente!</h1>
 
 
 <form action="<?php echo base_url();?>/index.php">
-    <input type="volver" value="Volver" />
+    <button type="submit" class="btn btn-primary">volver</button>
 </form>
 
 

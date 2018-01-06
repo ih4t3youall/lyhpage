@@ -33,13 +33,8 @@ class Upload extends CI_Controller
             //$this->main->index();
            // $this->load->view('main/index');
 
-            $this->load->view('main/head');
-            $this->load->view('main/header');
-            $this->load->view('main/slider');
-            $this->load->view('main/latest_products');
-            $this->load->view('main/about');
-            $this->load->view('main/contact');
-            $this->load->view('main/footer');
+            $this->load->view('success_pages/cv_success');
+
         }
     }
     public function save_cv(){

@@ -579,6 +579,14 @@ fieldset[disabled] .btn-theme {
     padding: 0;
     margin: 35px 0
 }
+#success_body{
+    background-color: whitesmoke;
+    margin-top: 100px;
+    text-align: center;
+}
+#success_buton{
+
+}
 
 .header .navbar-toggle .toggle-icon {
     position: relative;
