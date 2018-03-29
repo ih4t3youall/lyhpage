@@ -29,6 +29,7 @@
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Inicio</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">Nuestro trabajo</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">Acerca de nosotros</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#entes">Entes reguladores</a></li>
                                 <!--<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">Productos</a></li>-->
 
 

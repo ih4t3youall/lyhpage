@@ -1,12 +1,15 @@
 .link,
-body {
+body  {
     position: relative;
-    font-family: Hind, sans-serif
+    font-family: Hind, sans-serif;
+    background-color: #cde7ff;
+
 }
 
 .btn-theme,
 p {
     line-height: 1.4
+    text-color:black;
 }
 
 .btn-theme.active.focus,
@@ -835,8 +838,8 @@ fieldset[disabled] .btn-theme {
         float: right
     }
     .page-on-scroll .header .navbar {
-        background: #31708f;
-        border-bottom-color: #31708f;
+        background: #0049bd;
+        border-bottom-color: #0049bd;
         transition-duration: .3s;
         transition-property: all;
         transition-timing-function: cubic-bezier(.7, 1, .7, 1)
