@@ -28,6 +28,41 @@ class Epic extends CI_Controller {
 								$this->load->view('epic/epic',$result);
 				}
 
+				public function vehiculos()
+				{
+								$this->load->model('obras_model');
+								$obras=	$this->obras_model->load_vehiculos();
+								$obrass=$this->addImage($obras);
+								$result['result']=$this->divide_and_conquer($obrass);
+								$result['link']='single_vehiculos';
+								$this->load->view('epic/epic',$result);
+				}
+
+				public function herramientas()
+				{
+
+								$this->load->model('obras_model');
+								$obras=	$this->obras_model->load_herramientas();
+								$obrass=$this->addImage($obras);
+								$result['result']=$this->divide_and_conquer($obrass);
+								$result['link']='single_herramientas';
+								$this->load->view('epic/epic',$result);
+
+				}
+
+				public function proyectos(){
+
+								$this->load->model('obras_model');
+								$obras=	$this->obras_model->load_proyectos();
+								$obrass=$this->addImage($obras);
+								$result['result']=$this->divide_and_conquer($obrass);
+								$result['link']='single_proyectos';
+								$this->load->view('epic/epic',$result);
+
+
+				}
+
+
 				public function addImage($obras){
 
 								$int = sizeof($obras);
@@ -42,13 +77,34 @@ class Epic extends CI_Controller {
 
 				}
 
-				public function single(){
+				public function single_vehiculos(){
 								$id_obra =	$this->input->get('id_obra');
 								$this->load->model('obras_model');
 								$this->load->model('images_model');
 								$result['result']=$this->obras_model->load_obra_by_id($id_obra);	
 								$images=$this->images_model->load_images_by_obra_id($id_obra);
 								$result['images']=$this->divide_and_conquer($images);
+								$result['link']='vehiculos';
+								$this->load->view('epic/single',$result);
+				}
+				public function single_herramientas(){
+								$id_obra =	$this->input->get('id_obra');
+								$this->load->model('obras_model');
+								$this->load->model('images_model');
+								$result['result']=$this->obras_model->load_obra_by_id($id_obra);	
+								$images=$this->images_model->load_images_by_obra_id($id_obra);
+								$result['images']=$this->divide_and_conquer($images);
+								$result['link']='herramientas';
+								$this->load->view('epic/single',$result);
+				}
+				public function single_proyectos(){
+								$id_obra =	$this->input->get('id_obra');
+								$this->load->model('obras_model');
+								$this->load->model('images_model');
+								$result['result']=$this->obras_model->load_obra_by_id($id_obra);	
+								$images=$this->images_model->load_images_by_obra_id($id_obra);
+								$result['images']=$this->divide_and_conquer($images);
+								$result['link']='proyectos';
 								$this->load->view('epic/single',$result);
 				}
 
