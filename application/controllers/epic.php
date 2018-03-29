@@ -64,7 +64,6 @@ class Epic extends CI_Controller {
 
 
 				public function addImage($obras){
-
 								$int = sizeof($obras);
 								for ($i = 0; $i < $int; $i++) {	
 

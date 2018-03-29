@@ -584,9 +584,18 @@ fieldset[disabled] .btn-theme {
     margin-top: 100px;
     text-align: center;
 }
-#success_buton{
-
+.signatureImg{
+    margin-left: 200px;
+    margin-bottom:40px;
 }
+.siclarImage{
+    margin-left: 65px;
+}
+.entText{
+    margin-left:40px ;
+    margin-right:20px
+}
+
 
 .header .navbar-toggle .toggle-icon {
     position: relative;

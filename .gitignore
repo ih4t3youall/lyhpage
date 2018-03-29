@@ -1,2 +1,4 @@
 # phpstorm
 .idea/
+/uploads/*
+application/config/database.php
