@@ -572,7 +572,8 @@ fieldset[disabled] .btn-theme {
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     transition-duration: .3s;
     transition-property: all;
-    transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+    transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+    background-color: #0049bd;
 }
 
 .header .navbar-toggle {
@@ -764,7 +765,7 @@ fieldset[disabled] .btn-theme {
         background-color: #31708f
     }**/
     .header {
-        background: #31708f
+        background: #0049bd
     }
     .header .navbar-toggle {
         display: block
@@ -818,9 +819,7 @@ fieldset[disabled] .btn-theme {
         margin-left: 0;
         margin-right: 0
     }
-    .header .color{
-        background-color:#31708f
-    }
+
     .header .navbar>.container,
     .header .navbar>.container>.nav-collapse {
         padding-left: 0;
