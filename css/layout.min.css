@@ -30,7 +30,7 @@ a:hover {
 .link:after,
 .pricing .pricing-list-item:before {
     width: 9px;
-    height: 2px;
+    height: 3px;
     content: " "
 }
 
