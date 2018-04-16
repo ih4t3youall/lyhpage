@@ -17,7 +17,8 @@
                 <div class="swiper-slide siclarImage">
                     <!--   <img class="swiper-clients-img" src="img/clients/enteSiclar.png" alt="Clients Logo">-->
                     <a title="Ente regulador" href="#siclarModal" data-toggle="modal" data-target="#siclarModal">
-                        <img class="swiper-clients-img" src="img/clients/enteSiclar.png" alt="ente regulador"/></a>
+                        <!--<img class="swiper-clients-img" src="http://localhost/lyhpage/img/clients/enteSiclar.png" alt="ente regulador"/></a>-->
+                        <img class="swiper-clients-img" src="<?php echo base_url();?>img/clients/enteSiclar.png" alt="ente regulador"/></a>
                     <!-- <a href="#bannerformmodal" data-toggle="modal" data-target="#bannerformmodal">-->
                 </div>
 

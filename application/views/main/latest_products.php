@@ -3,7 +3,7 @@
             <div class="content-lg container">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
-                        <h2>Nuestro trabajo</h2>
+                        <h2>Obras realizadas</h2>
                         <p>Contamos con una amplia infraestructura asi como las herramientas y la maquinaria adecuada para realizar practicamete cualquier tipo de tarea.
                            Para obtener m&aacute;s informaci&oacute;n al respecto puede selecionar alguna de las siguientes categor&iacute;as: </p>
                     </div>

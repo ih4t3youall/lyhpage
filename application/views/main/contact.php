@@ -15,8 +15,8 @@
                             <h3><a href="#">Cont&aacute;ctenos</a> <span class="text-uppercase margin-l-20">contacto</span></h3>
                             <p>Puede contactarse con nosotros a travez de los siguientes medios:</p>
                             <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 44 77 3456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> operation@AitOnepage.com</li>
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> 2214643037</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i>ingenieria@ingenierialyh.com.ar<li>
                             </ul>
                             <p>Si quiere formar parte de nuestra empresa puede enviarnos su curricum vitae haciendo click en el siguiente boton:</p>
                             <button type="button" class="btn-theme btn-theme-sm btn-default-bg text-uppercase" data-toggle="modal" data-target="#exampleModal">
