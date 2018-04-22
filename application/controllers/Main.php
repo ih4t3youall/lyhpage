@@ -19,16 +19,26 @@ class Main extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+/** bkup
+		$this->load->view('main/head');
+		$this->load->view('main/header');
+		$this->load->view('main/slider');
+		$this->load->view('main/estructura');
+		$this->load->view('main/latest_products');
+		$this->load->view('main/about');
+**/
 	public function index()
 	{
 		$this->load->view('main/head');
 		$this->load->view('main/header');
 		$this->load->view('main/slider');
-        $this->load->view('main/latest_products');
 		$this->load->view('main/about');
+		$this->load->view('main/estructura');
+		$this->load->view('main/obras_realizadas');
 
 		//$this->load->view('main/pricing');
 		//$this->load->view('main/work');
+		$this->load->view('main/entes_reguladores');
 		$this->load->view('main/clients');
 		//$this->load->view('main/service');
 		$this->load->view('main/contact');
