@@ -37,6 +37,28 @@ class Epic extends CI_Controller {
 								$result['link']='single_vehiculos';
 								$this->load->view('epic/epic',$result);
 				}
+				public function equipo()
+				{
+
+								$this->load->model('obras_model');
+								$obras=	$this->obras_model->load_equipo();
+								$obrass=$this->addImage($obras);
+								$result['result']=$this->divide_and_conquer($obrass);
+								$result['link']='single_herramientas';
+								$this->load->view('epic/epic',$result);
+
+				}
+				public function instalaciones()
+				{
+
+								$this->load->model('obras_model');
+								$obras=	$this->obras_model->load_instalaciones();
+								$obrass=$this->addImage($obras);
+								$result['result']=$this->divide_and_conquer($obrass);
+								$result['link']='single_herramientas';
+								$this->load->view('epic/epic',$result);
+
+				}
 
 				public function herramientas()
 				{
@@ -58,23 +80,7 @@ class Epic extends CI_Controller {
 								$result['link']='single_proyectos';
 								$this->load->view('epic/epic',$result);
 				}
-				public function equipo(){
-								$this->load->model('obras_model');
-								$obras=	$this->obras_model->load_proyectos();
-								$obrass=$this->addImage($obras);
-								$result['result']=$this->divide_and_conquer($obrass);
-								$result['link']='single_proyectos';
-								$this->load->view('epic/epic',$result);
-				}
 
-				public function instalaciones(){
-								$this->load->model('obras_model');
-								$obras=	$this->obras_model->load_proyectos();
-								$obrass=$this->addImage($obras);
-								$result['result']=$this->divide_and_conquer($obrass);
-								$result['link']='single_proyectos';
-								$this->load->view('epic/epic',$result);
-				}
 
 				public function addImage($obras){
 								$int = sizeof($obras);

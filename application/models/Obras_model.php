@@ -25,6 +25,16 @@ class Obras_model extends CI_Model {
 								$query = $this->db->get_where('obra',array('tipo'=> 'proyecto'));
 								return $this->convert_to_simple_array($query->result());
 				}
+				public function load_equipo()
+				{
+								$query = $this->db->get_where('obra',array('tipo'=> 'equipo'));
+								return $this->convert_to_simple_array($query->result());
+				}
+				public function load_instalaciones()
+				{
+								$query = $this->db->get_where('obra',array('tipo'=> 'instalaciones'));
+								return $this->convert_to_simple_array($query->result());
+				}
 				public function load_obra_by_id($id_obra){
 								$query = $this->db->get_where('obra', array('id_obra' => $id_obra));
 								return $this->convert_to_simple_array($query->result());
