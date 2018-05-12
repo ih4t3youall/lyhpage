@@ -36,25 +36,26 @@
                 </div>
                 <div class="masonry-grid row">
                     <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
-
-                        <div class="margin-b-80">
-                            <h2>Calidad</h2>
-                            <p>Ser una Empresa admirada y confiable. En b&uacute;squeda de una mejora continua, adaptándose a los cambios a trav&eacute;s
-                               del crecimiento de quienes la conforman, para así comprometerse en las necesidades y expectativas de sus clientes.  </p>
-                        </div>
-                        <img class="full-width img-responsive wow fadeInUp" src="<?php echo base_url()?>img/imagenes/calidad.jpg" alt="vision Image" data-wow-duration=".3" data-wow-delay=".2s">
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-6">
                         <div class="margin-b-20">
                             <img class="full-width img-responsive wow fadeInUp" src="<?php echo base_url()?>img/imagenes/medio_ambiente.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
                         </div>
                         <h2>Medio abiente</h2>
                         <p>Ingeniería L & H SRL quiere ser una empresa de renombre en lo referente a Mantenimiento industrial y Servicios,
-                        para poder así otorgarles soluciones a quienes nos soliciten.
-                        Quiere ser Flexibles e innovadora, concentrándose en satisfacer las necesidades tanto internas como externas.
-                        Esto se logra trabajando en equipo, con mucha capacitación dedicación y voluntad grupal.</p>
+                            para poder así otorgarles soluciones a quienes nos soliciten.
+                            Quiere ser Flexibles e innovadora, concentrándose en satisfacer las necesidades tanto internas como externas.
+                            Esto se logra trabajando en equipo, con mucha capacitación dedicación y voluntad grupal.</p>
                     </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-6 sm-margin-b-30">
+
+                        <div class="margin-b-50">
+                            <h2 class="margin-t-30">Calidad</h2>
+                            <p>Ser una Empresa admirada y confiable. En b&uacute;squeda de una mejora continua, adaptándose a los cambios a trav&eacute;s
+                               del crecimiento de quienes la conforman, para así comprometerse en las necesidades y expectativas de sus clientes.  </p>
+                        </div>
+                        <img class="full-width img-responsive wow fadeInUp" src="<?php echo base_url()?>img/imagenes/calidad.jpg" alt="vision Image" data-wow-duration=".3" data-wow-delay=".2s">
+                    </div>
+
                 </div>
                 <!-- End Masonry Grid -->
             </div>
