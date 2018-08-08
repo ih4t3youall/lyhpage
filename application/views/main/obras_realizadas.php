@@ -14,7 +14,7 @@
 
                     <div class="col-md-12 sm-margin-b-50">
                         <div class="margin-b-20">
-                                                        <a href="<?php echo base_url();?>index.php/epic/equipo">
+                                                        <a href="<?php echo base_url();?>index.php/epic/obras">
                             <img class="img-responsive" style="width:105%" src="<?php echo base_url()?>img/banners/banner-obras.jpg" alt="inmagen seccion proyectos">
 														</a>
                         </div>

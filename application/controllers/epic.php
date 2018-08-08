@@ -103,7 +103,7 @@ class Epic extends CI_Controller {
 								$images=$this->images_model->load_images_by_obra_id($id_obra);
 								$result['images']=$this->divide_and_conquer($images);
 								$result['link']='vehiculos';
-								$this->load->view('epic/single',$result);
+								$this->load->view('epic/single_vehiculos',$result);
 				}
 				public function single_herramientas(){
 								$id_obra =	$this->input->get('id_obra');
@@ -113,7 +113,7 @@ class Epic extends CI_Controller {
 								$images=$this->images_model->load_images_by_obra_id($id_obra);
 								$result['images']=$this->divide_and_conquer($images);
 								$result['link']='herramientas';
-								$this->load->view('epic/single',$result);
+								$this->load->view('epic/single_herramientas',$result);
 				}
 				public function single_proyectos(){
 								$id_obra =	$this->input->get('id_obra');
@@ -123,7 +123,7 @@ class Epic extends CI_Controller {
 								$images=$this->images_model->load_images_by_obra_id($id_obra);
 								$result['images']=$this->divide_and_conquer($images);
 								$result['link']='proyectos';
-								$this->load->view('epic/single',$result);
+								$this->load->view('epic/single_proyectos',$result);
 				}
 
 				public function divide_and_conquer($result){
