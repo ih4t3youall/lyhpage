@@ -30,7 +30,7 @@ class Epic extends CI_Controller {
 				public function obras()
 				{
 								$this->load->model('obras_model');
-								$obras=	$this->obras_model->load_vehiculos();
+								$obras=	$this->obras_model->load_obras();
 								$obrass=$this->addImage($obras);
 								$result['result']=$this->divide_and_conquer($obrass);
 								$result['link']='single_obras';
@@ -113,6 +113,16 @@ class Epic extends CI_Controller {
 								$result['images']=$this->divide_and_conquer($images);
 								$result['link']='vehiculos';
 								$this->load->view('epic/single_vehiculos',$result);
+				}
+				public function single_obras(){
+								$id_obra =	$this->input->get('id_obra');
+								$this->load->model('obras_model');
+								$this->load->model('images_model');
+								$result['result']=$this->obras_model->load_obra_by_id($id_obra);	
+								$images=$this->images_model->load_images_by_obra_id($id_obra);
+								$result['images']=$this->divide_and_conquer($images);
+								$result['link']='vehiculos';
+								$this->load->view('epic/single_obras',$result);
 				}
 				public function single_herramientas(){
 								$id_obra =	$this->input->get('id_obra');
