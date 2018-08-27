@@ -121,7 +121,7 @@ class Epic extends CI_Controller {
 								$result['result']=$this->obras_model->load_obra_by_id($id_obra);	
 								$images=$this->images_model->load_images_by_obra_id($id_obra);
 								$result['images']=$this->divide_and_conquer($images);
-								$result['link']='vehiculos';
+								$result['link']='obras';
 								$this->load->view('epic/single_obras',$result);
 				}
 				public function single_herramientas(){
