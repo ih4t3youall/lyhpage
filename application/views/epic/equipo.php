@@ -104,7 +104,7 @@
 if($result['izq']!= null){
 foreach ($result['izq'] as $key){
 				echo '	<div class="fh5co-item">';
-				echo '		<a href="'.base_url().'/index.php/epic/'.$link.'?id_obra='.$key['id_obra'].'" class="transition animate-box">';
+				echo '		<a href="'.base_url().'index.php/epic/'.$link.'?id_obra='.$key['id_obra'].'" class="transition animate-box">';
 				echo '			<img src="../../../uploadFiles/uploads/'.$key['image']['url'].'" alt="imagen obra">';
 				echo '			<div class="fh5co-item-text-wrap">';
 				echo '				<div class="fh5co-item-text">';
@@ -129,7 +129,7 @@ foreach ($result['izq'] as $key){
 if($result['der']!= null){
 foreach ($result['der'] as $key){
 				echo '	<div class="fh5co-item">';
-				echo '		<a href="'.base_url().'/index.php/epic/'.$link.'?id_obra='.$key['id_obra'].'" class="transition animate-box">';
+				echo '		<a href="'.base_url().'index.php/epic/'.$link.'?id_obra='.$key['id_obra'].'" class="transition animate-box">';
 				echo '			<img src="../../../uploadFiles/uploads/'.$key['image']['url'].'" alt="imagen obra">';
 				echo '			<div class="fh5co-item-text-wrap">';
 				echo '				<div class="fh5co-item-text">';

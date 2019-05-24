@@ -46,17 +46,17 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="<?php echo base_url();?>/hydrogen/css/animate.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>hydrogen/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="<?php echo base_url();?>/hydrogen/css/icomoon.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>hydrogen/css/icomoon.css">
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="<?php echo base_url();?>/hydrogen/css/magnific-popup.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>hydrogen/css/magnific-popup.css">
 	<!-- Salvattore -->
-	<link rel="stylesheet" href="<?php echo base_url();?>/hydrogen/css/salvattore.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>hydrogen/css/salvattore.css">
 	<!-- Theme Style -->
-	<link rel="stylesheet" href="<?php echo base_url();?>/hydrogen/css/style.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>hydrogen/css/style.css">
 	<!-- Modernizr JS -->
-	<script src="<?php echo base_url();?>/hydrogen/js/modernizr-2.6.2.min.js"></script>
+	<script src="<?php echo base_url();?>hydrogen/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
